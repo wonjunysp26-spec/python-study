@@ -1,0 +1,31 @@
+oper = input('+, -, *, / 중에서 연산을 선택하시오: ')
+if oper == '+':
+    print('덧셈을 선택하였습니다.')
+    print('첫번째 수를 입력하세요.')
+    a=int(input())
+    print('두번째 수를 입력하세요.')
+    b=int(input())
+    print(f'{a} + {b} = {a+b} 입니다.')
+elif oper == '-':
+    print('빼기를 선택하였습니다.')
+    print('번째 수를 입력하세요.')
+    a=int(input())
+    print('두번째 수를 입력하세요.')
+    b=int(input())
+    print(f'{a} - {b} = {a-b} 입니다.')
+elif oper == '*':
+    print('곱샘을 선택하였습니다.')
+    print('번째 수를 입력하세요.')
+    a=int(input())
+    print('두번째 수를 입력하세요.')
+    b=int(input())
+    print(f'{a} * {b} = {a*b} 입니다.')
+elif oper == '/':
+    print('나누기를 선택하였습니다.')
+    print('첫번째 수를 입력하세요.')
+    a=int(input())
+    print('두번째 수를 입력하세요.')
+    b=int(input())
+    print(f'{a} / {b} = {a/b} 입니다.')
+else :
+    print('잘못 입력하였습니다.')
